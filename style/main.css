@@ -11,7 +11,7 @@
 
 body{
     background-color: var(--black);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -42,7 +42,7 @@ header nav a:hover{
 
 .principal-film{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-witcher.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-witcher.png');
 
     height: 400px;
     background-size: cover;
@@ -84,4 +84,25 @@ header nav a:hover{
 
 .btn i {
     margin-right: 5px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.principal-film .container {
+    width: 70%;
+}
+
+
+img{
+    height: 400px;
+}
+.film-box {
+    display: block;
+    object-fit: fill;
+}
+
+.carousel-films {
+    margin-top: 5px;
 }

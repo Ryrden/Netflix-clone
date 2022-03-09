@@ -7,19 +7,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style/main.css" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/4bcbe6449b.js"
-			crossorigin="anonymous"></script>
+			crossorigin="anonymous" defer></script>
+
+	<!-- Owl setup to Carousel -->
+	<script src="js/owl/jquery.min.js" defer></script>
+	<script src="js/owl/owl.carousel.min.js" defer></script>
+	<script src="js/owl/setup.js" defer></script>
+	<link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+	<link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
 	<title>NETFLIX CLONE</title>
 </head>
 
 <body>
 	<header>
 		<div class="container">
-			<h2 class="logo">NETFLIX</h2>
+			<h2 class="logo">GAMEFLIX</h2>
 			<nav>
-				<a href="#">Iniciar</a>
-				<a href="#">Séries</a>
-				<a href="#">Filmes</a>
-				<a href="#">Documentários</a>
+				<a href="#">Inicio</a>
+				<a href="#">Jogos Gratuitos</a>
+				<a href="#">Ofertas</a>
+				<a href="#">Lançamentos</a>
 			</nav>
 		</div>
 	</header>
@@ -31,15 +39,26 @@
 					adipisicing elit. Officia, quia neque earum fugit reiciendis</p>
 				<button role="button" class="btn">
 					<i class="fas fa-play"></i>
-					ASSISTIR AGORA
+					JOGAR AGORA
 				</button>
 				<button role="button" class="btn">
-					<i class="fas fa-info-circle"></i>
+					<i class="fa fa-steam"></i>
 					MAIS INFORMAÇÕES
 				</button>
 			</div>
 		</div>
 	</main>
+	<div class="carousel-films">
+		<div class="owl-carousel owl-theme">
+			<div class="item"><img src="img/EldenRing.jpg"="" alt="" class="box-film"></div>
+			<div class="item"><img src="img/DyingLight2.jpg"="" alt="" class="box-film"></div>
+			<div class="item"><img src="img/farcry6.jpg"="" alt="" class="box-film"></div>
+			<div class="item"><img src="img/Hellblade.jpg" alt="" class="box-film"></div>
+			<div class="item"><img src="img/stardewvalley.png" alt="" class="box-film"></div>
+			<div class="item"><img src="img/undertale.png" alt="" class="box-film"></div>
+			<div class="item"><img src="img/machinarium.jpeg" alt="" class="box-film"></div>
+		</div>
+	</div>
 </body>
 
 </html>
