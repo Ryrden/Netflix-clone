@@ -103,11 +103,10 @@ header nav a:hover{
 /* Carousel */
 
 img{
-    height: 400px;
+    height: 365px;
 }
+
 .film-box {
-    height: 100%;
-    width: 100%;
     display: block;
     object-fit: fill;
 }
@@ -119,15 +118,13 @@ img{
 }
 
 .carousel-tittle{
-    margin: 5px 0 10px 5px;
-}
-
-.carousel-tittle:nth-of-type(1){
-    margin-top: 15px;
+    margin: 15px 0;
+    margin-left: 3em;
 }
 
 .carousel-films {
-    margin-top: 5px;
+    margin: 5px 3em 0 3em;
+    
 }
 
 
